@@ -1,0 +1,120 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sir TIm Burners Lee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap"rel="stylesheet">
+</head>
+<body>
+    
+
+    <ul class="menu">
+        <li class="links"><a href="#welcome">HOME</a></li>
+        <li class="links"><a href="#videos">VIDEOS</a></li>
+        <li class="links"><a href="#work">WORK</a></li>
+        <li class="links"><a href="#writings">WRITINGS</a></li>
+        <li class="links"><a href="#contact">CONTACT</a></li>
+       
+    </ul>
+
+
+
+    <section id="welcome" class="parallax container">
+        <div class="parallax-inner">
+            <img src="stbl.jpg"class="profile"/></div>
+            <h1>I am <br><span id="name">Tim Berners-Lee</span>
+            <h1>I am the founder of www.WordWideWeb</h1>
+            
+
+        </div>
+    </section> 
+
+  
+    <section id="bio"> 
+        <h1>Hi!</h1>
+         <div class="line"></div> 
+         <p>Sir Tim Berners-Lee invented the World Wide Web in 1989.
+         Sir Tim is the Director of the World Wide Web Consortium (W3C ), a Web standards organization founded in 1994 which develops interoperable technologies (specifications, guidelines, software, and tools) to lead the Web to its full potential.
+          He is a Director of the World Wide Web Foundation which was launched in 2009 to coordinate efforts to further the potential of the Web to benefit humanity. 
+          <br /><br />In 2001 he became a Fellow of the Royal Society. 
+          He has been the recipient of several international awards including the Japan Prize, the Prince of Asturias Foundation Prize, the Millennium Technology Prize, and Germany's Die Quadriga award.
+           In 2004 he was knighted by H.M. Queen Elizabeth and in 2007 he was awarded the Order of Merit.
+            In 2009 he was elected a foreign associate of the National Academy of Sciences. </p> 
+        </section>
+            
+           <section id="videos">
+               <h1>videos
+                   <div class="line"></div>
+                   <br>
+                   <i frame width="900" height="500" src="https://www.youtube.com/embed/6ytAl0LkeTY" title="Youtube Video Player" frameborder="0"
+                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <br>
+                   <br>
+                   <iframe width="900" height="500" src="https://ww.youtube.com/embed/eNzx3PjJ_MA" title="Youtube Video Player" frameborder="0"
+                   allow="accelerometer; autoplay; clipboard=write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                       
+               </h1>
+           </section> 
+           <section id="work">
+               <h1>Work</h1>
+               <div class="line"></div>
+               <iframe width="900" height="1000" src="https://www.w3.org/People/Berners-Lee/Overview.html"
+               frameborder="0"></iframe> 
+           </section>
+           <section id="writings">
+               <h1>writings</h1>
+               <div class="line"></div>
+               <a href="https://webfoundation.org/2019/03/web-birthday-30" target="blank" 30 years on, what is next for the web?></a>
+               <br> 
+               <a href="https://interestingengineering.com/how-did-tim-berners-lee-change-the-world-with-the-w
+            orld-wide-web"target="blank">How did Tim Berners Lee Change the World With The World Wide web?</a> 
+           </section>
+        <div class="contact_1">
+            <a href="mailto:dermechesolana@gmail.com?Subject=Hello">
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>solanadermeche@gmail.com</h3>
+                
+            </a>
+
+            
+
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.5997313186967!2d77.31462191476506!3d28.581779882437814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5b0db7030bb%3A0xee118c7a0a8ae52c!2sByjus%20The%20Learning%20App!5e0!3m2!1sen!2sus!4v1653337726528!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
+            </html>
